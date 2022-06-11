@@ -1,0 +1,174 @@
+:root {
+  --primeri-text-color: #757575;
+  --secondary-text-color: #212121;
+  --accent-text-color: #2196f3;
+  --logo-text-color: #000000;
+  --primeri-bg-color: #fff;
+  --address-color: #fff;
+  --address-link: rgba(255, 255, 255, 0.6);
+}
+/* Основний колір тексту #212121 */
+/* Вторинний колір #757575 */
+/* Допоміжний колір #2196F3 */
+/* Фон заголовка #2F303A */
+
+/* Шрифт лого Raleway 700 */
+/* Фонт основного тексту Roboto 400 500 700 900 */
+
+body {
+  color: var(--primeri-text-color);
+  background-color: var(--primeri-bg-color);
+  font-family: Roboto, sans-serif;
+  text-decoration: none;
+}
+/* Logo */
+.logo {
+  color: var(--logo-text-color);
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  text-decoration: none;
+}
+
+.slogan {
+  color: var(--accent-text-color);
+}
+
+/* Hero */
+/* Тимчасовий фон */
+.hero {
+  background-color: #2f303a;
+}
+
+.hero-title {
+  color: #fff;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.hero-title .button {
+  color: #fff;
+  background-color: var(--accent-text-color);
+  cursor: pointer;
+}
+
+/* Navigation */
+.site-nav .link,
+.auth-nav .link,
+.hero-nav .button {
+  color: var(--primeri-text-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+
+ul,
+a {
+  list-style: none;
+  text-decoration: none;
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus,
+.auth-nav .link:hover,
+.auth-nav .link:focus,
+.address-nav .link:hover,
+.address-nav .link:focus,
+.hero-nav .button:hover,
+.hero-nav .button:focus {
+  color: var(--accent-text-color);
+}
+
+/* Section 1 */
+.section-title {
+  color: var(--secondary-text-color);
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.text {
+  color: var(--primeri-text-color);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+}
+
+/* Section 2 */
+.section-title.list {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--secondary-text-color);
+}
+
+/* Section 3 */
+.work {
+  color: var(--secondary-text-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
+  letter-spacing: 0.03em;
+}
+
+.work-title {
+  color: var(--primeri-text-color);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.18;
+  letter-spacing: 0.03em;
+}
+
+/* Footer */
+/* Тимчасовий фон */
+footer {
+  background-color: #2f303a;
+}
+
+.address-nav .contact {
+  color: var(--address-color);
+  font-style: normal;
+}
+
+.address-nav .link {
+  color: var(--address-link);
+  text-decoration: none;
+  font-style: normal;
+}
+
+/* Portfolio */
+.work .item {
+  color: var(--secondary-text-color);
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+
+.work .benefits {
+  color: var(--primeri-text-color);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.03em;
+}
+
+button {
+  cursor: pointer;
+}
+
+.hero-nav {
+  color: #fff;
+}

@@ -29,6 +29,7 @@ body {
   line-height: 1.19;
   letter-spacing: 0.03em;
   text-decoration: none;
+  font-family: 'Raleway';
 }
 
 .slogan {
@@ -52,10 +53,19 @@ body {
   text-transform: uppercase;
 }
 
-.hero-title .button {
+/* Button */
+
+button {
+  color: var(--secondary-text-color);
+  background-color: #f5f4fa;
+  cursor: pointer;
+}
+
+.hero button {
   color: #fff;
   background-color: var(--accent-text-color);
-  cursor: pointer;
+  font-size: 16px;
+  line-height: 1.87;
 }
 
 /* Navigation */
@@ -69,6 +79,10 @@ body {
   letter-spacing: 0.02em;
 }
 
+.site-nav .link {
+  color: var(--secondary-text-color);
+}
+
 ul,
 a {
   list-style: none;
@@ -80,9 +94,7 @@ a {
 .auth-nav .link:hover,
 .auth-nav .link:focus,
 .address-nav .link:hover,
-.address-nav .link:focus,
-.hero-nav .button:hover,
-.hero-nav .button:focus {
+.address-nav .link:focus {
   color: var(--accent-text-color);
 }
 
@@ -112,6 +124,7 @@ a {
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--secondary-text-color);
+  text-transform: none;
 }
 
 /* Section 3 */
@@ -146,9 +159,28 @@ footer {
   color: var(--address-link);
   text-decoration: none;
   font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71px;
+  letter-spacing: 0.03em;
 }
 
 /* Portfolio */
+/* Buttons */
+
+.navigation {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  vertical-align: top;
+}
+
+.navigation:hover,
+.navigation:focus {
+  color: var(--address-color);
+  background-color: var(--accent-text-color);
+}
+
 .work .item {
   color: var(--secondary-text-color);
   font-weight: 700;
@@ -163,10 +195,6 @@ footer {
   font-size: 16px;
   line-height: 1.87;
   letter-spacing: 0.03em;
-}
-
-button {
-  cursor: pointer;
 }
 
 .hero-nav {

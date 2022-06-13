@@ -22,7 +22,7 @@ body {
   text-decoration: none;
 }
 /* Logo */
-.logo {
+.logo.up {
   color: var(--logo-text-color);
   font-weight: 700;
   font-size: 26px;
@@ -59,6 +59,7 @@ button {
   color: var(--secondary-text-color);
   background-color: #f5f4fa;
   cursor: pointer;
+  font-family: 'Roboto';
 }
 
 .hero button {
@@ -66,6 +67,10 @@ button {
   background-color: var(--accent-text-color);
   font-size: 16px;
   line-height: 1.87;
+  font-weight: 700;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
 }
 
 /* Navigation */
@@ -146,6 +151,16 @@ a {
 
 /* Footer */
 /* Тимчасовий фон */
+.logo.down {
+  color: var(--address-color);
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  text-decoration: none;
+  font-family: 'Raleway';
+}
+
 footer {
   background-color: #2f303a;
 }
@@ -153,6 +168,10 @@ footer {
 .address-nav .contact {
   color: var(--address-color);
   font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
 }
 
 .address-nav .link {
@@ -169,10 +188,13 @@ footer {
 /* Buttons */
 
 .navigation {
+  font-family: 'Roboto';
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
   vertical-align: top;
+  text-align: center;
+  letter-spacing: 0.03em;
 }
 
 .navigation:hover,
